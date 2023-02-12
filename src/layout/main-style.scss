@@ -1,86 +1,19 @@
-@import './layout-pages/error.scss';
 @import '../components/button.scss';
+@import '../components/button-back.scss';
+@import './layout-pages/error.scss';
+@import './layout-pages/authorization.scss';
+@import './layout-pages/profile.scss';
+
 
 $main__form-color: #FFFFFE;
 $main__text-color: #1E1E1E;
 $main__other-color: #BAE8E8; 
 
-a {
+a, button {
     cursor: pointer;
 }
 
 body{
     background-color: $main__background-color;
     color: $main__text-color;
-}
-
-.page-authorization__block {
-    width: 340px;
-    height: 450px;
-    color: #1e1e1e;
-    background-color: #fffffe;
-    margin: 120px auto 0;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba($color: $main__text-color, $alpha: 0.1);
-}
-
-.page-authorization__h1 {
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-}
-
-.page-authorization__text-input {
-    font-size: 12px;
-    line-height: 25px;
-}
-
-.page-authorization__block-input {
-    width: 280px;
-    height: 50px;
-    border-bottom: 1px solid $main__other-color;
-    margin: 10px 0;
-}
-
-.page-authorization__input {
-    outline:none;
-    border:none;
-    width: 100%;
-    height: 23px;
-}
-
-.page-authorization__form {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 450px;
-}
-
-.page-authorization__link {
-    font-size: 15px;
-    line-height: 18px;
-    text-decoration: none;
-    color: $main__text-color;
-    text-align: center;
-}
-
-.page-authorization__form-block-button {
-    display: flex;
-    justify-content: center;
-    height: 100px;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.page-registration__block {
-    width: 340px;
-    height: 590px;
-    color: $main__text-color;
-    background-color: #fffffe;
-    margin: 40px auto 0;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba($color: $main__text-color, $alpha: 0.1);
 }
