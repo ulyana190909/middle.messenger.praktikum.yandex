@@ -1,0 +1,79 @@
+$main__text-color: #1E1E1E;
+$main__text-color-blue: #BAE8E8;
+$main__form-color: #FFFFFE;
+
+.page-chat__wrapper {
+    display: flex;
+}
+
+.page-chat__block-chats-list {
+    width: 320px;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: $main__form-color;
+    border-bottom: 1px solid $main__text-color-blue;
+}
+
+.page-chat__block-chats-head {
+    height: 100px;
+    display: flex;
+    padding: 15px 10px 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-chat__block-chats-head a {
+    text-decoration: none;
+    text-align: end;
+    margin-bottom: 20px;
+    color: $main__text-color;
+    font-size: 15px;
+}
+
+.page-chat__block-chats {
+    border-left: 2px solid $main__text-color-blue;
+    width: 100%;
+}
+
+.page-chat__block-chats-user-panel {
+    height: 50px;
+    background-color: $main__text-color-blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.page-chat__block-chats-menu {
+    height: 15px;
+    width: 5px;
+}
+
+.page-chat__block-chats-user-name {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.page-chat__block-chats-user-block {
+    display: flex;
+    align-items: center;
+}
+
+.page-chat__block-chats-user-foto {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.page-chat__block-main {
+    height: 100%;
+}
+
+.page-chat__block-chats-main {
+    margin-top: 250px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+}
