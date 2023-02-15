@@ -60,6 +60,29 @@
   height: 20px;
   margin-right: 5px; }
 
+.component__write-message__block {
+  width: 849px;
+  min-height: 22px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: #FFFFFE; }
+
+.component__write-message__block span {
+  font-size: 14px;
+  line-height: 16px; }
+
+.components__message {
+  width: 410px;
+  min-height: 70px;
+  background-color: #FFFFFE;
+  padding: 10px;
+  border-radius: 10px; }
+
+.components___message_time {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
 .page-authorization__block {
   width: 340px;
   height: 450px;
@@ -198,11 +221,15 @@
   align-items: center; }
 
 .page-chat__wrapper {
-  display: flex; }
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
 
 .page-chat__block-chats-list {
   width: 320px;
-  height: 100vh;
   position: relative;
   top: 0;
   left: 0;
@@ -252,14 +279,36 @@
   height: 34px;
   border-radius: 50%; }
 
-.page-chat__block-main {
-  height: 100%; }
-
 .page-chat__block-chats-main {
   margin-top: 250px;
   text-align: center;
   font-size: 18px;
   line-height: 25px; }
+
+.page-chat__block-chats-user-panel-clip {
+  width: 32px;
+  height: 32px; }
+
+.page-chat__block-chats-user-panel-button-right {
+  width: 28px;
+  height: 28px; }
+
+.page-chat__block-chats-new-message {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  padding: 0 20px; }
+
+.b-0 {
+  position: absolute;
+  bottom: 0;
+  left: 310px;
+  right: 0; }
+
+.page-chat__block-main {
+  padding: 20px; }
 
 a, button {
   cursor: pointer; }
@@ -267,5 +316,13 @@ a, button {
 body {
   background-color: #E3F6F5;
   color: #1E1E1E; }
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */

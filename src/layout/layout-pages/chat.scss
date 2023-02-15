@@ -4,11 +4,15 @@ $main__form-color: #FFFFFE;
 
 .page-chat__wrapper {
     display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .page-chat__block-chats-list {
     width: 320px;
-    height: 100vh;
     position: relative;
     top: 0;
     left: 0;
@@ -67,13 +71,39 @@ $main__form-color: #FFFFFE;
     border-radius: 50%;
 }
 
-.page-chat__block-main {
-    height: 100%;
-}
-
 .page-chat__block-chats-main {
     margin-top: 250px;
     text-align: center;
     font-size: 18px;
     line-height: 25px;
 }
+
+.page-chat__block-chats-user-panel-clip {
+    width: 32px;
+    height: 32px;
+}
+
+.page-chat__block-chats-user-panel-button-right {
+    width: 28px;
+    height: 28px;
+}
+
+.page-chat__block-chats-new-message {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    padding: 0 20px;
+}
+
+.b-0 {
+    position: absolute;
+    bottom: 0;
+    left: 310px;
+    right: 0;
+  }
+
+  .page-chat__block-main {
+    padding: 20px;
+  }

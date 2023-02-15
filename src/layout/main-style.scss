@@ -2,6 +2,8 @@
 @import '../components/button-back.scss';
 @import '../components/modal-window.scss';
 @import '../components/search.scss';
+@import '../components/write-message.scss';
+@import '../components/block-message.scss';
 @import './layout-pages/authorization.scss';
 @import './layout-pages/error.scss';
 @import './layout-pages/profile.scss';
@@ -19,3 +21,12 @@ body{
     background-color: $main__background-color;
     color: $main__text-color;
 }
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }

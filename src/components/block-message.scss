@@ -1,0 +1,15 @@
+$main__form-color: #FFFFFE;
+
+.components__message {
+ width: 410px;
+ min-height: 70px;
+ background-color: $main__form-color;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+.components___message_time {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

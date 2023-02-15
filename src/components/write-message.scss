@@ -1,0 +1,14 @@
+$main__form-color: #FFFFFE;
+
+.component__write-message__block {
+    width: 849px;
+    min-height: 22px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: $main__form-color;
+}
+
+.component__write-message__block span {
+    font-size: 14px;
+    line-height: 16px;
+}
