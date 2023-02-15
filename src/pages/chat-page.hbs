@@ -16,6 +16,117 @@
                 <a href="#">Профиль <img src="../../static/img/arrow-right.svg" alt=""> </a>
                 {{> search}}
             </div>
+
+            
+            <div class="page-chat__block-chats-chat">
+                <div class="page-chat__block-chats-chat-foto">
+                    <img src="../../static/img/empty-foto.svg" alt="фото пользователя">
+                </div>
+                   <div class="page-chat__block-chats-chat-main">
+                <div class="page-chat__block-chats-chat-message">
+                    <span class="page-chat__block-chats-chat-user-name">Илья</span>
+                    <span>15:23</span>
+                </div>
+                <div class="page-chat__block-chats-chat-info">
+                    <span>Друзья, у меня для вас особенный выпуск новостей!...</span>
+                    <div></div>
+                </div>
+                </div>
+            </div>
+            <div class="page-chat__block-chats-chat">
+                <div class="page-chat__block-chats-chat-foto">
+                    <img src="../../static/img/empty-foto.svg" alt="фото пользователя">
+                </div>
+                  <div class="page-chat__block-chats-chat-main">
+                <div class="page-chat__block-chats-chat-message">
+                    <span class="page-chat__block-chats-chat-user-name">1, 2, 3</span>
+                    <span>16:13</span>
+                </div>
+                <div class="page-chat__block-chats-chat-info">
+                    <span>Миллионы россиян ежедневно проводят десятки часов свое...</span>
+                    <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-chat__block-chats-chat">
+                <div class="page-chat__block-chats-chat-foto">
+                    <img src="../../static/img/empty-foto.svg" alt="фото пользователя">
+                </div>
+                  <div class="page-chat__block-chats-chat-main">
+                <div class="page-chat__block-chats-chat-message">
+                    <span class="page-chat__block-chats-chat-user-name">Design Destroyer</span>
+                    <span>пн</span>
+
+                </div>
+                <div class="page-chat__block-chats-chat-info">
+                    <span>В 2008 году художник Jon Rafman  начал собирать...</span>
+                    <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-chat__block-chats-chat">
+                <div class="page-chat__block-chats-chat-foto">
+                    <img src="../../static/img/empty-foto.svg" alt="фото пользователя">
+                </div>
+                  <div class="page-chat__block-chats-chat-main">
+                <div class="page-chat__block-chats-chat-message">
+                    <span class="page-chat__block-chats-chat-user-name">Day.</span>
+                    <span>1 мая</span>
+
+                </div>
+                <div class="page-chat__block-chats-chat-info">
+                    <span>Так увлёкся работой по курсу, что совсем забыл его анонсир...</span>
+                    <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-chat__block-chats-chat">
+                <div class="page-chat__block-chats-chat-foto">
+                    <img src="../../static/img/empty-foto.svg" alt="фото пользователя">
+                </div>
+                  <div class="page-chat__block-chats-chat-main">
+                <div class="page-chat__block-chats-chat-message">
+                    <span class="page-chat__block-chats-chat-user-name">тет-а-теты</span>
+                    <span>30 апреля</span>
+
+                </div>
+                <div class="page-chat__block-chats-chat-info">
+                    <span>И Human Interface Guidelines и Material Design рекомендуют...</span>
+                    <div></div>
+                </div>
+                </div>
+            </div>
+            <div class="page-chat__block-chats-chat page-chat__active">
+                <div class="page-chat__block-chats-chat-foto">
+                    <img src="../../static/img/empty-foto.svg" alt="фото пользователя">
+                </div>
+                  <div class="page-chat__block-chats-chat-main">
+                <div class="page-chat__block-chats-chat-message">
+                    <span class="page-chat__block-chats-chat-user-name">Вадим</span>
+                    <span>29 апреля</span>
+                </div>
+                <div class="page-chat__block-chats-chat-info">
+                    <span>Привет! Смотри, тут всплыл интересный кусок лунной космической истории...</span>
+                    <div></div>
+                </div>
+                </div>
+            </div>
+             <div class="page-chat__block-chats-chat">
+                <div class="page-chat__block-chats-chat-foto">
+                    <img src="../../static/img/empty-foto.svg" alt="фото пользователя">
+                </div>
+                   <div class="page-chat__block-chats-chat-main">
+                <div class="page-chat__block-chats-chat-message">
+                    <span class="page-chat__block-chats-chat-user-name">Илья</span>
+                    <span>01 апреля</span>
+                </div>
+                <div class="page-chat__block-chats-chat-info">
+                    <span>Друзья, у меня для вас особенный выпуск новостей!...</span>
+                    <div></div>
+                </div>
+                </div>
+            </div>
+
         </div>
         <div class="page-chat__block-chats">
             <div class="page-chat__block-chats-user-panel">
@@ -29,14 +140,15 @@
                 </a>
             </div>
             <div class="page-chat__block-main">
-                {{>block-message-other message="Привет! Смотри, тут всплыл интересный кусок лунной космической истории — НАСА в
+                {{>block-message-other message="Привет! Смотри, тут всплыл интересный кусок лунной космической истории —
+                НАСА в
                 какой-то момент попросила Хассельблад адаптировать модель SWC для полетов на Луну. Сейчас мы все знаем
                 что астронавты летали с моделью 500 EL — и к слову говоря, все тушки этих камер все еще находятся на
                 поверхности Луны, так как астронавты с собой забрали только кассеты с пленкой.
 
                 Хассельблад в итоге адаптировал SWC для космоса, но что-то пошло не так и на ракету они так никогда и не
                 попали. Всего их было произведено 25 штук, одну из них недавно продали на аукционе за 45000 евро."}}
-                 {{>block-message-my message="Круто!"}}
+                {{>block-message-my message="Круто!"}}
             </div>
 
 

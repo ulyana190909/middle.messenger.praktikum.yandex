@@ -11,13 +11,14 @@
 
 $main__form-color: #FFFFFE;
 $main__text-color: #1E1E1E;
-$main__other-color: #BAE8E8; 
+$main__other-color: #BAE8E8;
 
-a, button {
+a,
+button {
     cursor: pointer;
 }
 
-body{
+body {
     background-color: $main__background-color;
     color: $main__text-color;
 }
@@ -29,4 +30,15 @@ button {
     color: inherit;
     background-color: transparent;
     cursor: pointer;
-  }
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    background-color: #143861;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
