@@ -1,17 +1,20 @@
-@import '../components/button.scss';
-@import '../components/button-back.scss';
-@import '../components/modal-window.scss';
-@import '../components/search.scss';
-@import '../components/write-message.scss';
-@import '../components/block-message.scss';
-@import './layout-pages/authorization.scss';
-@import './layout-pages/error.scss';
-@import './layout-pages/profile.scss';
-@import './layout-pages/chat.scss';
+$color-white: #FFFFFE;
+$color-black: #1E1E1E;
+$color-dark-blue: #BAE8E8;
+$color-blue: #E3F6F5;
+$color-yellow: #FFD803;
 
-$main__form-color: #FFFFFE;
-$main__text-color: #1E1E1E;
-$main__other-color: #BAE8E8;
+@import '../components/button';
+@import '../components/button-back';
+@import '../components/modal-window';
+@import '../components/search';
+@import '../components/write-message';
+@import '../components/block-message';
+@import './layout-pages/authorization';
+@import './layout-pages/error';
+@import './layout-pages/profile';
+@import './layout-pages/chat';
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 a,
 button {
@@ -19,8 +22,9 @@ button {
 }
 
 body {
-    background-color: $main__background-color;
-    color: $main__text-color;
+    background-color: $color-blue;
+    color: $color-black;
+    font-family: 'Lora', serif;
 }
 
 button {

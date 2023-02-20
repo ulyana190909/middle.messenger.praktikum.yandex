@@ -1,11 +1,9 @@
-$main__form-color: #FFFFFE;
-
 .component__write-message__block {
     width: 849px;
     min-height: 22px;
     padding: 5px 20px;
     border-radius: 20px;
-    background-color: $main__form-color;
+    background-color: $color-white;
     margin: 0 15px;
     border: none;
 }

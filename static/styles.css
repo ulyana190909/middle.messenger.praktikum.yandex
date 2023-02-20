@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 .main__button {
   width: 280px;
   height: 37px;
   border: none;
-  font-size: 13px;
+  font-size: 15px;
   border-radius: 7px;
   margin: 10px 0;
   background-color: #FFD803; }
@@ -37,11 +38,10 @@
   background-color: #FFFFFE;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(30, 30, 30, 0.1); }
-
-.component__modal-window > div {
-  font-size: 20px;
-  line-height: 25px;
-  text-align: center; }
+  .component__modal-window div {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center; }
 
 .component-chat__block {
   background-color: #EFEFEF;
@@ -50,10 +50,9 @@
   padding: 5px 15px;
   border-radius: 5px;
   cursor: pointer; }
-
-.component-chat__block span {
-  font-size: 15px;
-  line-height: 20px; }
+  .component-chat__block span {
+    font-size: 15px;
+    line-height: 20px; }
 
 .component-chat__img {
   width: 20px;
@@ -96,15 +95,14 @@ input:focus, textarea:focus, select:focus {
 .components__message-info {
   display: flex;
   justify-content: end; }
-
-.components__message-info img {
-  margin-left: 10px; }
+  .components__message-info img {
+    margin-left: 10px; }
 
 .page-authorization__block {
   width: 340px;
   height: 450px;
-  color: #1e1e1e;
-  background-color: #fffffe;
+  color: #1E1E1E;
+  background-color: #FFFFFE;
   margin: 120px auto 0;
   padding: 30px;
   border-radius: 10px;
@@ -155,7 +153,7 @@ input:focus, textarea:focus, select:focus {
   width: 340px;
   height: 590px;
   color: #1E1E1E;
-  background-color: #fffffe;
+  background-color: #FFFFFE;
   margin: 40px auto 0;
   padding: 30px;
   border-radius: 10px;
@@ -251,7 +249,7 @@ input:focus, textarea:focus, select:focus {
   top: 0;
   left: 0;
   background-color: #FFFFFE;
-  border-bottom: 1px solid #BAE8E8;
+  border-bottom: 1px solid #E3F6F5;
   overflow-x: hidden;
   overflow-y: auto; }
 
@@ -261,14 +259,13 @@ input:focus, textarea:focus, select:focus {
   padding: 15px 10px 10px;
   flex-direction: column;
   justify-content: space-between;
-  border-bottom: 1px solid #BAE8E8; }
-
-.page-chat__block-chats-head a {
-  text-decoration: none;
-  text-align: end;
-  margin-bottom: 20px;
-  color: #1E1E1E;
-  font-size: 15px; }
+  border-bottom: 1px solid #E3F6F5; }
+  .page-chat__block-chats-head a {
+    text-decoration: none;
+    text-align: end;
+    margin-bottom: 20px;
+    color: #1E1E1E;
+    font-size: 15px; }
 
 .page-chat__block-chats {
   border-left: 2px solid #BAE8E8;
@@ -344,18 +341,16 @@ input:focus, textarea:focus, select:focus {
   height: 30px;
   display: flex;
   justify-content: space-between; }
-
-.page-chat__block-chats-chat-message span {
-  line-height: 16px;
-  font-size: 14px; }
+  .page-chat__block-chats-chat-message span {
+    line-height: 16px;
+    font-size: 14px; }
 
 .page-chat__block-chats-chat-info {
   display: flex;
   justify-content: space-between; }
-
-.page-chat__block-chats-chat-info span {
-  line-height: 16px;
-  font-size: 14px; }
+  .page-chat__block-chats-chat-info span {
+    line-height: 16px;
+    font-size: 14px; }
 
 .page-chat__block-chats-chat-user-name {
   margin-bottom: 10px; }
@@ -373,7 +368,8 @@ button {
 
 body {
   background-color: #E3F6F5;
-  color: #1E1E1E; }
+  color: #1E1E1E;
+  font-family: 'Lora', serif; }
 
 button {
   padding: 0;
