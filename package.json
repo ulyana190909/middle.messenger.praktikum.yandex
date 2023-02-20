@@ -108,6 +108,7 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
+    "start": "node ./static/server.js",
     "dev": "parcel ./static/index.hbs --no-cache --open",
     "build": "parcel build ./static/index.hbs --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
