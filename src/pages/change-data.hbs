@@ -14,40 +14,42 @@
         {{> button-back}}
 
         <section class="page-profile__wrapper">
-            <div class="page-profile__block-name">
-                <div class="page-profile__photo-user" name="avatar"><img class="page-profile__photo-img"
-                        src="../../static/img/foto.svg"></div>
-                <span class="page-profile__name-user">Иван</span>
-            </div>
-            <ul>
-                <li class="page-profile__data-user page-profile__border">
-                    <div class="page-profile__data">Почта</div>
-                    <input class="page-profile__data" name="email" placeholder="pochta@yandex.ru"></input>
-                </li>
-                <li class="page-profile__data-user page-profile__border">
-                    <div class="page-profile__data">Логин</div>
-                    <input class="page-profile__data" name="login" placeholder="ivanivanov"></input>
-                </li>
-                <li class="page-profile__data-user page-profile__border">
-                    <div class="page-profile__data">Имя</div>
-                    <input class="page-profile__data" name="first_name" placeholder="Иван"></input>
-                </li>
-                <li class="page-profile__data-user page-profile__border">
-                    <div class="page-profile__data">Фамилия</div>
-                    <input class="page-profile__data" name="second_name" placeholder="Иванов"></input>
-                </li>
-                <li class="page-profile__data-user page-profile__border">
-                    <div class="page-profile__data">Имя в чате</div>
-                    <input class="page-profile__data" name="display_name" placeholder="Иван"></input>
-                </li>
-                <li class="page-profile__data-user page-profile__border">
-                    <div class="page-profile__data">Телефон</div>
-                    <input class="page-profile__data" name="phone" placeholder="+7 (909) 967 30 30"></input>
-                </li>
-            </ul>
-            <div class="page-profile__block-button">
-                {{> button label="Сохранить"}}
-            </div>
+            <form action="">
+                <div class="page-profile__block-name">
+                    <div class="page-profile__photo-user" name="avatar"><img class="page-profile__photo-img"
+                            src="../../static/img/foto.svg"></div>
+                    <span class="page-profile__name-user">Иван</span>
+                </div>
+                <ul>
+                    <li class="page-profile__data-user page-profile__border">
+                        <div class="page-profile__data">Почта</div>
+                        <input class="page-profile__data" name="email" placeholder="pochta@yandex.ru"></input>
+                    </li>
+                    <li class="page-profile__data-user page-profile__border">
+                        <div class="page-profile__data">Логин</div>
+                        <input class="page-profile__data" name="login" placeholder="ivanivanov"></input>
+                    </li>
+                    <li class="page-profile__data-user page-profile__border">
+                        <div class="page-profile__data">Имя</div>
+                        <input class="page-profile__data" name="first_name" placeholder="Иван"></input>
+                    </li>
+                    <li class="page-profile__data-user page-profile__border">
+                        <div class="page-profile__data">Фамилия</div>
+                        <input class="page-profile__data" name="second_name" placeholder="Иванов"></input>
+                    </li>
+                    <li class="page-profile__data-user page-profile__border">
+                        <div class="page-profile__data">Имя в чате</div>
+                        <input class="page-profile__data" name="display_name" placeholder="Иван"></input>
+                    </li>
+                    <li class="page-profile__data-user page-profile__border">
+                        <div class="page-profile__data">Телефон</div>
+                        <input class="page-profile__data" name="phone" placeholder="+7 (909) 967 30 30"></input>
+                    </li>
+                </ul>
+                <div class="page-profile__block-button">
+                    {{> button label="Сохранить"}}
+                </div>
+            </form>
         </section>
     </main>
 </body>

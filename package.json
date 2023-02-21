@@ -5,7 +5,7 @@
   "name": "middle.messenger.praktikum.yandex",
   "version": "1.0.0",
   "dependencies": {
-    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "@anikin/parcel-transformer-handlebars": "^1.0.2",
     "abortcontroller-polyfill": "^1.7.5",
     "acorn": "^8.8.2",
     "ansi-styles": "^4.3.0",
@@ -116,5 +116,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Команда для запуска приложения      npm run start Домен Netlify - https://neon-sunshine-14d0c2.netlify.app",
+  "main": "handlebars.config.js"
 }
