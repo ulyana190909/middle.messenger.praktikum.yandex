@@ -2,4 +2,4 @@
 
 Команда для запуска приложения - npm run start
 
-Домен Netlify - https://neon-sunshine-14d0c2.netlify.app
+Домен Netlify - https://strong-fairy-d35b75.netlify.app/
