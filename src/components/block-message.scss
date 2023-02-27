@@ -1,0 +1,32 @@
+.components__message {
+    width: 410px;
+    min-height: 40px;
+    background-color: $color-white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.components__message-my {
+    position: absolute;
+    right: 20;
+    width: 410px;
+    min-height: 40px;
+    background-color: $color-white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.components___message_time {
+    text-align: end;
+}
+
+.components__message-info {
+    display: flex;
+    justify-content: end;
+
+    img {
+        margin-left: 10px;
+    }
+}

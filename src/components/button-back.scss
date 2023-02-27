@@ -1,0 +1,22 @@
+.component__button-back {
+    height: 100vh;
+    width: 64px;
+    background-color: $color-dark-blue;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.component__button-back__block-img {
+    height: 39px;
+    width: 39px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    left: 5px;
+}
+
+.component__button-back__img {
+    border-radius: 50%;
+}

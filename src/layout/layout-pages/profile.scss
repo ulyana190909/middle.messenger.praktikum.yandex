@@ -1,0 +1,61 @@
+.page-profile__wrapper {
+    width: 510px;
+    height: 550px;
+    padding: 20px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-profile__photo-user {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 10px;
+}
+
+.page-profile__name-user {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.page-profile__block-name {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+}
+
+.page-profile__link {
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+    color: $color-black;
+}
+
+.page-profile__border {
+    border-bottom: 1px solid $color-dark-blue;
+    width: 510px;
+}
+
+.page-profile__photo-img {
+    border-radius: 50%;
+}
+
+.page-profile__data-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-profile__data {
+    font-size: 16px;
+    line-height: 25px;
+    background-color: $color-blue;
+}
+
+.page-profile__block-button {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    align-items: center;
+}

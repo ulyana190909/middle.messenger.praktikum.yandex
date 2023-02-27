@@ -1,0 +1,62 @@
+$color-white: #FFFFFE;
+$color-black: #1E1E1E;
+$color-dark-blue: #BAE8E8;
+$color-blue: #E3F6F5;
+$color-yellow: #FFD803;
+
+@import '../components/button';
+@import '../components/button-back';
+@import '../components/modal-window';
+@import '../components/search';
+@import '../components/write-message';
+@import '../components/block-message';
+@import './layout-pages/authorization';
+@import './layout-pages/error';
+@import './layout-pages/profile';
+@import './layout-pages/chat';
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+a,
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: $color-blue;
+    color: $color-black;
+    font-family: 'Lora', serif;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    background-color: #143861;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+input {
+    outline:none;
+    border: none;
+    width: 150px;
+}

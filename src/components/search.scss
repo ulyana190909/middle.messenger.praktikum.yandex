@@ -1,0 +1,19 @@
+.component__chat-block {
+    background-color: #EFEFEF;
+    width: 260px;
+    height: 32px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+.component__chat-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

@@ -1,0 +1,17 @@
+.component__modal-window {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    justify-content: space-between;
+    background-color: $color-white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba($color: $color-black, $alpha: 0.1);
+
+    div {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+}

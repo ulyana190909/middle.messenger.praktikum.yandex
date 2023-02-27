@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "express": "^4.18.2",
+    "parcel": "^2.8.3"
+  },
+  "name": "middle.messenger.praktikum.yandex",
+  "version": "1.0.0",
+  "dependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "handlebars": "^4.7.7",
+    "sass": "^1.58.3"
+  },
+  "scripts": {
+    "start": "node ./static/server.js",
+    "dev": "parcel ./static/index.hbs --open",
+    "build": "parcel build ./static/index.hbs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Команда для запуска приложения      npm run start Домен Netlify - https://neon-sunshine-14d0c2.netlify.app"
+}
